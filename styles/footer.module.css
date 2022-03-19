@@ -1,0 +1,30 @@
+.ahover{
+  font-size: 19px !important;
+}
+
+.ahover:hover {
+  color: #0277bd !important;
+  
+}
+
+.copytext{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.copytext span ,.copytext a {
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .ahover {
+    font-size: 14px !important;
+  }
+
+  .ahover:hover {
+    color: #0277bd !important;
+    
+  }
+}

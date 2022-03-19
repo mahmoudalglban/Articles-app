@@ -1,0 +1,48 @@
+.contain {
+  width: 100%;
+  background: #fff;
+  padding: 8px 10px 18px;
+  border: 1px solid #e0e0e0;
+  border-top: 4px solid #0277bd;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+
+.uilist {
+  margin-bottom: 0;
+}
+
+.list > a {
+  display: flex;
+}
+
+.number {
+  width: 36px;
+  height: 36px;
+  background: #e8e8e8;
+  font-family: Arial;
+  color: #0277bd;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.8;
+  margin: 6px 0 0 10px;
+}
+
+.text {
+  width: calc(100% - 46px);
+  font-size: 13px;
+  color: #000;
+  height: 50px;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.text:hover {
+  color: #0277bd;
+}

@@ -1,0 +1,33 @@
+.header {
+  font-size: 22px !important;
+  margin: 25px !important;
+}
+
+.title {
+  padding-right: 15px;
+}
+
+.text {
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.point h4 {
+  padding-right: 10px;
+}
+
+.point p {
+  padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    font-size: 17px;
+    margin: 10px !important;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,107 @@
+.title {
+  font-weight: 900 !important;
+  font-size: 21px !important;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.wrote {
+  font-weight: 800 !important;
+  font-size: 19px !important;
+  margin-bottom: 0 !important;
+
+}
+
+.authorName {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  color: #0277bd !important;
+  margin-bottom: 0 !important;
+}
+
+.date {
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  margin-left: 10px;
+  font-family: droidLight,Arial !important;
+  
+}
+
+.firstParagraph {
+  margin-top: 15px;
+}
+
+.firstParagraph h2 {
+  font-weight: 700 !important;
+  font-size: 19px !important;
+  padding: 5px;
+}
+
+.firstParagraph p {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+.secondParagraph {
+  margin-top: 10px;
+}
+
+.secondParagraph h3 {
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  padding: 5px;
+}
+
+.secondParagraph p {
+  font-size: 16px !important;
+}
+
+.thirdParagraph {
+  margin-top: 10px;
+}
+
+.thirdParagraph h4 {
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  padding: 5px;
+}
+
+.thirdParagraph p {
+  font-size: 16px !important;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 19px !important;
+  }
+
+  .firstParagraph h2 {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    padding: 5px;
+  }
+
+  .firstParagraph p {
+    font-size: 14px !important;
+  }
+
+  .secondParagraph h3 {
+    font-weight: 800 !important;
+    font-size: 17px !important;
+    padding: 5px;
+  }
+
+  .secondParagraph p {
+    font-size: 14px !important;
+  }
+
+  .thirdParagraph h4 {
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    padding: 5px;
+  }
+
+  .thirdParagraph p {
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,10 @@
+.text {
+  font-size: 22px;
+  padding-right: 7px;
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 18px;
+  }
+}

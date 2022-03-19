@@ -1,0 +1,25 @@
+.navFont {
+  font-family: -"Almarai", sans-serif, "Cairo", sans-serif, "Lemonada", cursive,
+    "Mada", sans-serif !important;
+  color: rgb(255, 255, 255) !important;
+  margin-left: 15px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+  font-size: 20px;
+}
+
+.navFont:hover{
+    color: #0277bd !important;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .navFont {
+    margin-bottom: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+}
